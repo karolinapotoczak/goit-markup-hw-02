@@ -12,6 +12,7 @@ body {
 .footer-logo {
     text-transform: uppercase;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .logo-item {
@@ -20,6 +21,7 @@ body {
 
 .navigation {
     font-weight: 500;
+    cursor: pointer;
 }
 
 .navigation:hover,
@@ -36,6 +38,7 @@ body {
     line-height: 16px;
     letter-spacing: 0.4;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .contact:hover {
@@ -54,6 +57,7 @@ body {
     letter-spacing: 0.4;
     color: #ffffff;
     background-color: #4d5ae5;
+    cursor: pointer;
 }
 
 .button:hover {
