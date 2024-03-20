@@ -1,0 +1,86 @@
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2;
+    color: #434445;
+    background-color: #ffffff;
+}
+
+.logo,
+.footer-logo {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.logo-item {
+    color: #4d5ae5
+}
+
+.navigation {
+    font-weight: 500;
+}
+
+.navigation:hover,
+.navigation:active {
+    color: #4d5ae5
+}
+
+.navigation:active {
+    text-decoration: underline;
+}
+
+.contact {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4;
+    text-decoration: underline;
+}
+
+.contact:hover {
+    color: #4d5ae5
+}
+
+.tittle {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+.button {
+    font-weight: 500;
+    letter-spacing: 0.4;
+    color: #ffffff;
+    background-color: #4d5ae5;
+}
+
+.button:hover {
+    background-color: #404bbf;
+}
+
+.main-section {
+    background-color: #2e2f42;
+}
+
+.section-tittle {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2e2f42;
+}
+
+.text-tittle {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+}
+
+.second-section {
+    background-color: #f4f4fd;
+}
+
+.footer-text,
+.footer-logo {
+    color: #ffffff;
+}
