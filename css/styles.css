@@ -1,22 +1,26 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.2;
-    color: #434445;
+    color: #434455;
     background-color: #ffffff;
 }
 
-.logo,
-.footer-logo {
+.logo {
+    font-family: "Raleway";
     text-transform: uppercase;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     cursor: pointer;
+    color: #4d5ae5;
 }
 
 .logo-item {
-    color: #4d5ae5
+    color: #2e2f42
 }
 
 .navigation {
