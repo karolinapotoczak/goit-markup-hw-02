@@ -2,14 +2,14 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.2;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
     background-color: #ffffff;
 }
 
 .logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
@@ -25,46 +25,51 @@ body {
 
 .navigation {
     font-weight: 500;
+    color: #2e2f42;
     cursor: pointer;
 }
 
 .navigation:hover,
 .navigation:active {
-    color: #4d5ae5
+    color: #404bbf
 }
 
 .navigation:active {
     text-decoration: underline;
 }
 
+.address {
+    font-style: normal;
+}
+
 .contact {
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.4;
     text-decoration: underline;
     cursor: pointer;
 }
 
-.contact:hover {
-    color: #4d5ae5
+.contact:hover,
+.contact:active {
+    color: #404bbf;
 }
 
 .tittle {
     color: #ffffff;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
+    text-align: center;
 }
 
 .button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    letter-spacing: 0.4;
+    letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
 }
 
-.button:hover {
+.button:active {
     background-color: #404bbf;
 }
 
@@ -90,5 +95,5 @@ body {
 
 .footer-text,
 .footer-logo {
-    color: #ffffff;
+    color: #f4f4fd;
 }
