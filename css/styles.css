@@ -31,7 +31,7 @@ body {
 
 .navigation:hover,
 .navigation:active,
-.navigation:focus {
+.navigation:visited {
     color: #404bbf
 }
 
@@ -52,7 +52,7 @@ body {
 
 .address .contact:hover,
 .address .contact:active,
-.address .contact:focus {
+.address .contact:visited {
     color: #404bbf;
 }
 
@@ -77,7 +77,7 @@ body {
 
 .main-section .button:active,
 .main-section .button:hover,
-.main-section .button:focus {
+.main-section .button:visited {
     background-color: #404bbf;
 }
 
