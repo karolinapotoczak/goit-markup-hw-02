@@ -75,10 +75,8 @@ body {
     cursor: pointer;
 }
 
-.main-section,
-.button:active,
-.main-section,
-.button:hover {
+.main-section .button:active,
+.main-section .button:hover {
     background-color: #404bbf;
 }
 
