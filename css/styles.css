@@ -42,13 +42,16 @@ body {
     font-style: normal;
 }
 
+.address,
 .contact {
     text-decoration: underline;
     cursor: pointer;
     color: #434455
 }
 
+.address,
 .contact:hover,
+.address,
 .contact:active {
     color: #404bbf;
 }
@@ -72,8 +75,10 @@ body {
     cursor: pointer;
 }
 
+.main-section,
 .button:active,
-.button:hover .button:focus {
+.main-section,
+.button:hover {
     background-color: #404bbf;
 }
 
