@@ -45,6 +45,7 @@ body {
 .contact {
     text-decoration: underline;
     cursor: pointer;
+    color: #434455
 }
 
 .contact:hover,
@@ -58,18 +59,21 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     letter-spacing: 0.04em;
+    line-height: 1.5;
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
 }
 
-.button:active {
+.button:active,
+.button:hover {
     background-color: #404bbf;
 }
 
@@ -84,6 +88,8 @@ body {
 }
 
 .text-tittle {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
@@ -91,6 +97,20 @@ body {
 
 .second-section {
     background-color: #f4f4fd;
+}
+
+.section-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-cards {
+    background-color: #ffffff;
 }
 
 .footer-text,
