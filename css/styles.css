@@ -30,7 +30,8 @@ body {
 }
 
 .navigation:hover,
-.navigation:active {
+.navigation:active,
+.navigation:focus {
     color: #404bbf
 }
 
@@ -49,10 +50,9 @@ body {
     color: #434455
 }
 
-.address,
-.contact:hover,
-.address,
-.contact:active {
+.address .contact:hover,
+.address .contact:active,
+.address .contact:focus {
     color: #404bbf;
 }
 
@@ -76,7 +76,8 @@ body {
 }
 
 .main-section .button:active,
-.main-section .button:hover {
+.main-section .button:hover,
+.main-section .button:focus {
     background-color: #404bbf;
 }
 
