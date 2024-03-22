@@ -8,6 +8,10 @@ body {
     background-color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -26,16 +30,11 @@ body {
 .navigation {
     font-weight: 500;
     color: #2e2f42;
-    cursor: pointer;
 }
 
 .navigation:hover,
-.navigation:active,
-.navigation:visited {
-    color: #404bbf
-}
-
-.navigation:active {
+.navigation:focus {
+    color: #404bbf;
     text-decoration: underline;
 }
 
@@ -45,15 +44,14 @@ body {
 
 .address,
 .contact {
-    text-decoration: underline;
     cursor: pointer;
     color: #434455
 }
 
 .address .contact:hover,
-.address .contact:active,
-.address .contact:visited {
+.address .contact:focus {
     color: #404bbf;
+    text-decoration: underline;
 }
 
 .tittle {
@@ -75,9 +73,8 @@ body {
     cursor: pointer;
 }
 
-.main-section .button:active,
-.main-section .button:hover,
-.main-section .button:visited {
+.main-section .button:focus,
+.main-section .button:hover {
     background-color: #404bbf;
 }
 
